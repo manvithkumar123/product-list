@@ -92,7 +92,7 @@ const Container = () => {
                       {clickedButtons.reduce((acc, index) => acc + desserts[index].price * counters[index], 0).toFixed(2)}
                     </strong>
                   </p>
-                  <button id='confirm'>Confirm Order</button>
+                  <button id='confirm' onClick={() => alert("Order confirmed!")}>Confirm Order</button>
               </div>
         </div>
       </div>
